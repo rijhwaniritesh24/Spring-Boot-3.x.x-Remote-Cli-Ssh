@@ -1,0 +1,26 @@
+spring.shell.interactive.enabled: false
+
+ssh:
+  shell:
+    prompt:
+      color: cyan
+      text: 'basic::>'
+    password: password
+    authorized-public-keys-file: samples/complete/src/main/resources/.ssh/authorized.keys
+    commands:
+      jmx:
+        create: false
+      script:
+        create: false
+      history:
+        create: false
+      postprocessors:
+        create: false
+      manage-sessions:
+        create: false
+      system:
+        create: false
+
+logging:
+  level:
+    com.github.fonimus: debug

@@ -1,0 +1,14 @@
+# project
+target/
+
+# intellij
+.idea/*
+!.idea/runConfigurations
+*.iml
+build
+
+# public key file example
+samples/public-keys-sample
+
+# mac os
+.DS_Store
